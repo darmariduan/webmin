@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    text-decoration: underline;
+}
+body{
+    font-family: 'Times New Roman';
+}
+h2{
+    color: aqua;
+}
+h3{
+    color: bisque;
+}
+footer{
+    padding: 20px;
+    color: bisque;
+    background-color: cadetblue;
+}
