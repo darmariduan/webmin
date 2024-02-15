@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Halaman ProfilBandung</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styling/styles.css">
 
     <!--Google Font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
 
+<body>
 <header>
-    <title>Bandung</title>
-    <body>
+  <div class="jumbotron">
       <h1>Bandung</h1>
-
       <p>
         Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu
         kota provinsi tersebut.
       </p>
+  </div>
+
 <nav>
       <ul>
         <li>
@@ -34,11 +38,12 @@
 </header>
 
 <main>
+<!--konten artikel-->
     <div id="content">
-        <article id="sejarah">
+        <article id="sejarah" class="card">
       <h2>Sejarah</h2>
-      <img src="img/halaman-profil-bandung-images/halaman-profil-bandung-images/image/history.jpg"
-        alt="Sejarah"/>
+      <img src="assets/img/history.jpg"
+        alt="Sejarah" class="featured-image"/>
       <p>
         Kata Bandung berasal dari kata bendung atau bendungan karena
         terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu
@@ -60,10 +65,10 @@
       </p>
     </article>
 
-    <article id="geografis">
+    <article id="geografis" class="card">
       <h2>Geografis</h2>
-      <img src="img/halaman-profil-bandung-images/halaman-profil-bandung-images/image/geografis.jpg"
-        alt="Geografis"/>
+      <img src="assets/img/geografis.jpg"
+        alt="Geografis" class="featured-image"/>
       <p>
         Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi
         wilayahnya bagaikan sebuah mangkok raksasa, secara geografis kota ini
@@ -82,7 +87,7 @@
       </p>
     </article>
 
-    <article id="wisata">
+    <article id="wisata" class="card">
       <h2>Wisata</h2>
       <p>
         Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan
@@ -91,11 +96,11 @@
         kota Bandung juga dikenal dengan sejumlah besar bangunan lama
         berarsitektur peninggalan Belanda.
       </p>
+
    <section>
       <h3>Farm House Lembang</h3>
-      <img src="img/halaman-profil-bandung-images/halaman-profil-bandung-images/image/farm-house.jpg"
-        alt="Farm House Lembang"
-      />
+      <img src="assets/img/farm-house.jpg"
+        alt="Farm House Lembang" class="featured-image"/>
       <p>
         Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata
         yang tidak pernah sepi pengunjung. Selain karena letaknya strategis,
@@ -107,9 +112,8 @@
     <section>
       <h3>Observatorium Bosscha</h3>
       <img
-        src="img/halaman-profil-bandung-images/halaman-profil-bandung-images/image/bosscha.jpg"
-        alt="Observatorium Bosscha"
-      />
+        src="assets/img/bosscha.jpg"
+        alt="Observatorium Bosscha" class="featured-image"/>
       <p>
         Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt
         Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya.
@@ -124,17 +128,21 @@
     </section>
     </article>
     </div>
+
     <aside>
-    <article>
+    <article class="card">
+  <header>
       <h2>Kota Bandung</h2>
       <p>Kota Kembang Paris van Java</p>
       <figure>
-        <img src="img/halaman-profil-bandung-images/halaman-profil-bandung-images/image/Bandung_coa.png" />
+        <img src="assets/img/Bandung_coa.png"/>
     <figcaption>Lambang</figcaption>
       </figure>
+    </header>
 
     <section>
-        <h2>Informasi Lainnya</h2>
+        <h3>Informasi Lainnya</h3>
+
     <table>
         <tr>
             <th>Negara</th>
